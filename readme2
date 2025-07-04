@@ -1,0 +1,7 @@
+Este código  implementa un sistema sencillo para registrar consultas médicas y sus diagnósticos.
+Está compuesto por tres clases: Diagnostico, que guarda la descripción de la enfermedad y el tratamiento,
+y permite consultarlos o modificarlos; Consulta, que almacena un código, una fecha y un diagnóstico asociado,
+y muestra toda esta información indicando si el tratamiento es largo o corto; y Tallerclase3, que es la clase
+principal donde se crea un diagnóstico de ejemplo, se registra una consulta con ese diagnóstico y se imprime 
+toda la información por pantalla, mostrando los detalles y sugiriendo si se requiere seguimiento adicional 
+según la longitud del tratamiento.
