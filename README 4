@@ -1,0 +1,8 @@
+Este programa  implementa un sistema básico para registrar la información de un propietario de mascotas,
+junto con los datos de sus mascotas y las consultas veterinarias realizadas a cada una. Al iniciar, se solicita
+al usuario ingresar el nombre, documento y teléfono del propietario, creando un objeto Propietario con estos datos.
+Luego, el usuario indica cuántas mascotas desea registrar y, para cada una, ingresa su nombre, especie y edad, creando
+objetos Mascota que se asocian al propietario. Para cada mascota, el usuario puede agregar varias consultas veterinarias,
+ingresando la fecha y los datos del veterinario (nombre y especialidad), generando un código único para cada consulta con 
+la clase Generator. Cada consulta se vincula a la mascota correspondiente. Finalmente, al completar todos los registros,
+se imprime en consola la ficha clínica completa del propietario, mostrando sus datos, los de sus mascotas y todas las consultas registradas
